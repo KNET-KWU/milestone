@@ -1,0 +1,65 @@
+name: KNET 동아리에게 제안 및 질문
+description: KNET에게 제안 또는 질문을 합니다
+title: "[질문] / [제안]"
+labels: [🎈KNET]
+body:
+  - type: checkboxes
+    id : checkbox1
+    attributes:
+      label: 제안 및 질문의 적용 범위가 어떻게 되나요?
+      description: 여러 내용으로 분리할 수 있는 경우 각각 하나의 이슈를 발행해주세요
+      options:
+        - label: KNET 동아리 내부에 대한 내용입니다(프로젝트, 멘토-멘티)
+          required: false
+        - label: KNET 동아리와 학교(교내 동아리, 광운대)에 대한 내용입니다
+          required: false
+        - label: KNET 동아리와 외부(타 학교, 일반 회사)에 대한 내용입니다
+          required: false
+        - label: KNET 동아리와 외부행사(컨퍼런스, 연합동아리)에 대한 내용입니다
+          required: false
+
+  - type: checkboxes
+    id : checkbox1
+    attributes:
+      label: 작성자에 대해서 알려주세요
+      description: 상황 파악을 하기 위해서 사용됩니다.
+      options:
+        - label: KNET 동아리원입니다.
+          required: false
+        - label: 현재 광운대학교 재학생입니다.
+          required: false
+        - label: 다른 대학교 학생입니다.
+          required: false
+        - label: 학교에 소속되지 않은 일반인입니다.
+          required: false
+
+  - type: textarea
+    id : textarea1
+    attributes:
+      label: 제안 및 질문에 대한 배경, 현재 상황에 대해서 작성해주세요
+      description: 구체적으로 작성해주시면 문제 파악에 도움이 됩니다.
+      placeholder: |
+        현재 상황은...
+        현재 문제는...
+        ! 관련된 사진, 링크, 레퍼런스를 첨부해주실 수 있다면 첨부해주세요
+    validations:
+      required: false
+
+  - type: textarea
+    id : textarea2
+    attributes:
+      label: 문제에 대한 해결, 건의 사항에 대해서 작성해주세요
+      description: 구체적으로 작성해주시면 문제 파악에 도움이 됩니다.
+      placeholder: |
+        문제를 이렇게 해결했으면 좋겠습니다...
+        이런걸 추가하는 건 어떨까요...?
+    validations:
+      required: false
+
+  - type: textarea
+    id : textarea3
+    attributes:
+      label: 추가로 작성하고 싶은 내용
+      description: 한 말씀 하시죠
+    validations:
+      required: false

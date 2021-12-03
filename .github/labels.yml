@@ -1,43 +1,93 @@
+# 일반 레이블
 - color: d73a4a
-  description: Something isn't working
-  name: 🐞 Bug
+  description: 이상한데요?
+  name: 🐞 버그
 - color: fc3232
-  description: Something to ask
-  name: ❓ Question
+  description: 질문이요
+  name: ❓ 질문
 - color: fafafa
-  description: Issues that need ideas, opinions
-  name: 💬 Need Opinions
-- color: ff0000
-  description: Spam
-  name: 🚨 Spam
-
-# README.md, YML, config, image files
-- color: eb4646
-  description: about README.md
-  name: 📕 README.md
-- color: 21e5ff
-  description: about workflow files
-  name: 🌊 Workflows
+  description: 여러분의 의견이 필요합니다
+  name: 💬 다른 의견 필요
+- color: E194BC
+  description: 문제상황에 대한 정보가 부족하거나 모호합니다
+  name: 🤔 추가 정보 필요
 - color: 16fa31
-  description: about image files
-  name: 🖼️ Images
-- color: fff821
-  description: about config files
-  name: 🛠️ Config
-
-# Priority
+  description: 스크린샷, 이미지를 추가해주세요
+  name: 🖼️ 이미지 필요
 - color: ff0000
-  description: Priority Level 4
-  name: ❤️ Priority#1
+  description: 적합하지 않은 내용입니다
+  name: 🚨 스팸
+- color: 9AE45C
+  description: 프로젝트 또는 의견을 제안합니다
+  name: 🙋 제안
+- color: 9AE45C
+  description: 고정해버렸어
+  name: 📌 고정
 
-- color: ff8800
-  description: Priority Level 3
-  name: 🧡 Priority#2
 
-- color: 00ff11
-  description: Priority Level 2
-  name: 💚 Priority#3
+# 프로젝트 관련 레이블
+- color: eb4646
+  description: KNET 공식 블로그, 또는 README.md에 작성할 내용
+  name: 📕 문서화
+- color: 21e5ff
+  description: 작업이 진행중입니다
+  name: 🌊 진행중
+- color: fff821
+  description: 기존 상황 또는 발생한 문제 개선에 대한 내용
+  name: 🛠️ 개선
+- color: eaff00
+  description: 프로젝트 인원 모집중
+  name: 📢 멘티 모집중
+- color: eaff00
+  description: 프로젝트 인원 모집중
+  name: 📢 멘토 모집중
 
-- color: 00d5ff
-  description: Priority Level 1
-  name: 💙 Priority#4
+# 동아리 관련 레이블
+- color: dbff6e
+  description: KNET에 대한 내용
+  name: 🎈KNET
+- color: fff821
+  description: 멘토에 대한 내용
+  name: 🏫멘토
+- color: fff821
+  description: 멘티에 대한 내용
+  name: 🎓멘티
+
+# 이슈 처리 우선 순위 
+- color: ff0000
+  description: 진짜 빨리 처리해야 하는 것
+  name: 🚨Priority/P1
+
+- color: ff9d00
+  description: 빨리 처리해야 하는 것
+  name: 🚨Priority/P2
+
+- color: fff700
+  description: 처리해야 하는 것
+  name: 🚨Priority/P3
+
+# 프로그래밍 언어
+- color: e9e0ff
+  description: 
+  name: lang:C/C++
+- color: e9e0ff
+  description: 
+  name: lang:Python
+- color: e9e0ff
+  description: 
+  name: lang:Javascript
+- color: e9e0ff
+  description: 
+  name: lang:Node.js
+- color: e9e0ff
+  description: 
+  name: lang:Java
+- color: e9e0ff
+  description: 
+  name: lang:C#
+- color: e9e0ff
+  description: 
+  name: lang:Swift
+- color: e9e0ff
+  description: 
+  name: lang:go
