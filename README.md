@@ -6,7 +6,15 @@ K-NET 동아리 운영을 위해 생성된 레포지토리입니다.
 
 카카오톡 공지의 기능은 한계가 있어 Github의 기능을 이용하고자 합니다!
 
-[제안, 프로젝트 프로포즈 작성하기](https://github.com/KNET-KWU/milestone/issues/new/choose)
+[📜 제안, 프로젝트 프로포즈 작성하기](https://github.com/KNET-KWU/milestone/issues/new/choose)
+
+[📝 가벼운 이야기, 주제에 대해서 작성하기](https://github.com/KNET-KWU/milestone/discussions/new?category=general)
+
+[💡 반짝하고 떠오르는 아이디어 작성하기](https://github.com/KNET-KWU/milestone/discussions/new?category=ideas)
+
+[🙋 QnA 작성하기](https://github.com/KNET-KWU/milestone/discussions/new?category=q-a)
+
+[✨ 자랑하기](https://github.com/KNET-KWU/milestone/discussions/new?category=show-and-tell)
 
 **Issue 작성을 통해 K-NET 세미나, 프로젝트 진행 주제를 건의하거나 참가 의사를 표해주세요!**
 
